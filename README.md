@@ -1,3 +1,3 @@
 # Pompeo
 
-https://argentooo.github.io/Pompeo/
+ https://beksultan7.github.io/pompeo/
