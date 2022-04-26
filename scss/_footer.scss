@@ -1,0 +1,150 @@
+@import "vars";
+.footer {
+  background: rgba(219, 219, 219, 0.1);
+  margin: 0;
+  &__inner {
+    padding-top: 108px;
+    margin: 0;
+  }
+  &__title {
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    font-family: "Pacifico";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000000;
+  }
+  &__text {
+    margin: 0;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6c6c6c;
+  }
+  &__block {
+    margin: 0;
+    padding: 70px 0 90px 145px;
+    display: flex;
+  }
+  /*box1*/
+  &__box1 {
+    padding-right: 240px;
+  }
+  &__sms-svg {
+    padding-left: 67px;
+    margin: 0;
+  }
+  &__email {
+    margin: 0;
+    padding: 10px 0 20px 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &__email-link {
+    text-decoration: none;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6c6c6c;
+  }
+  /*box2*/
+  &__box2 {
+    margin: 0;
+    padding-right: 205px;
+  }
+  &__location-svg {
+    padding-left: 60px;
+  }
+  &__find {
+    margin: 0;
+    padding: 10px 0 20px 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &__text1 {
+    margin: 0;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6c6c6c;
+  }
+  /*box3*/
+  &__box3 {
+    margin: 0;
+  }
+  &__phone-svg {
+    padding-left: 30px;
+  }
+  &__call {
+    margin: 0;
+    padding: 10px 0 20px 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &__phone {
+    margin: 0;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6c6c6c;
+  }
+  /* footer info*/
+  &__and {
+    background: rgba(219, 219, 219, 0.1);
+  }
+  &__info {
+    padding: 33px 0 30px 0;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #6c6c6c;
+  }
+  &__info1 {
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+  }
+}

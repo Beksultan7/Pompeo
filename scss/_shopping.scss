@@ -1,0 +1,57 @@
+.shopping {
+  background-image: url(../images/IMAGE.jpg);
+  background-repeat: no-repeat;
+  &__inner {
+    margin: 0;
+    padding: 121px 675px 120px 0;
+  }
+  &__text1 {
+    margin: 0;
+    padding-bottom: 7px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d77474;
+  }
+  &__title {
+    padding-bottom: 13px;
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+  }
+  &__text2 {
+    padding: 0 5px 30px 0;
+    margin: 0;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+  }
+
+  &__click {
+    width: 13.375rem;
+    height: 3.875rem;
+    background: #ac1313;
+  }
+  &__toggle {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

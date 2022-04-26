@@ -1,0 +1,92 @@
+.news {
+  margin: 0;
+  &__inner {
+    padding-top: 121px;
+  }
+  &__img {
+    margin: 0;
+    padding: 0 560px 40px 560px;
+  }
+  &__text1 {
+    padding-bottom: 8px;
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d77474;
+  }
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+  &__title1 {
+    padding-top: 25px;
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+  }
+  &__title2 {
+    &::before {
+      content: url(../images/&.svg);
+      // padding: 8px 5px 77px 5px;
+    }
+    padding-top: 11px;
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+  }
+  &__form {
+    margin-left: 350px;
+    padding-top: 63px;
+  }
+  &__input {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #a1a1a1;
+    padding: 13px 149px 12px 10px;
+  }
+  &__sub {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    width: 161px;
+    height: 50px;
+    border-radius: 0px;
+    padding: 13px 7px 12px 7px;
+  }
+  &__text {
+    margin: 0;
+    padding: 40px 0 162px 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #a1a1a1;
+  }
+}

@@ -1,0 +1,120 @@
+@import "vars";
+
+.cate {
+  margin-top: 120px;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: url(../images/Hand-Craft-Pottery.svg);
+    top: 171px;
+    left: 86px;
+    bottom: 345px;
+  }
+  &__inner {
+    padding: 0 24px 0 24px;
+  }
+  &__title {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d77474;
+    padding: 0 460px 40px 480px;
+  }
+  &__titles {
+    display: flex;
+  }
+  &__title1 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: $dark;
+    padding: 0 57px 3px 374px;
+    position: relative;
+    &::after {
+      position: absolute;
+      z-index: -1;
+      content: url(../images/&.svg);
+      bottom: 14px;
+    }
+  }
+  &__title2 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: $dark;
+    padding: 0 373px 3px 0;
+  }
+  &__wrapper {
+    padding: 0 14px 0 14px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    max-height: 240px;
+  }
+  &__wrapper2 {
+    padding: 0 24px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 509px 509px;
+    gap: 133px;
+  }
+  &__block1 {
+    max-width: 509px;
+    max-height: 222px;
+  }
+  &__title3 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    color: $dark;
+    padding: 0 241px 26px 0;
+  }
+  &__text {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6c6c;
+    padding: 0 20px 31px 0;
+  }
+  &__block2 {
+    max-width: 509px;
+    max-height: 222px;
+  }
+  &__title4 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    color: $dark;
+    padding: 0 196px 23px 0;
+  }
+  &__text1 {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6c6c;
+    padding: 0 8px 31px 0;
+  }
+}

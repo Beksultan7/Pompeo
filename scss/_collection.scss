@@ -1,0 +1,97 @@
+@import "vars";
+
+.collection {
+  &__inner {
+    padding: 7.563rem 0 7.474rem;
+  }
+  &__info {
+    padding: 0 1.5rem;
+    &-subtitle {
+      margin: 0;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #d77474;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+      color: #000000;
+      margin: 0;
+      padding-top: 1.063rem;
+    }
+  }
+  &__wrapper {
+    padding: 3.75rem 0.875rem 0;
+    position: relative;
+  }
+  &__wrapper::before {
+    content: url(../images/ProductCollections.svg);
+    position: absolute;
+    left: 0;
+    top: 40%;
+  }
+  &__list {
+    padding: 0 0.625rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 23.188rem);
+    gap: 1.25rem;
+  }
+  &__item {
+    position: relative;
+    max-width: 23.188rem;
+    max-height: 36.25rem;
+    &-name {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #6c6c6c;
+      margin: 0;
+      padding-top: 0.938rem;
+    }
+    &-price {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #000000;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+  }
+  &__item::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background: #dbdbdb;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  &__btn {
+    text-align: center;
+    margin-top: 2.474rem;
+    &-link {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-decoration: none;
+      width: 13.375rem;
+      height: 3.875rem;
+      background: #ac1313;
+      border-radius: 0px;
+      text-align: center;
+      line-height: 3.875rem;
+    }
+  }
+}

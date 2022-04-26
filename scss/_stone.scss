@@ -1,0 +1,86 @@
+@import "vars";
+
+.stone {
+  background-image: url(../images/back-img.png);
+  position: relative;
+  z-index: -5;
+  background-repeat: no-repeat;
+  &::after {
+    position: absolute;
+    content: url(../images/back-img1.png);
+    top: 127px;
+    right: 33px;
+    bottom: 136px;
+    left: 623px;
+    z-index: -1;
+  }
+  &__inner {
+    padding: 0 24px 0 24px;
+  }
+  &__title {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d77474;
+    padding: 192px 998px 12px 0;
+  }
+  &__strong {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: $dark;
+    padding: 0 730px 0 0;
+    position: relative;
+    &::after {
+      content: url(../images/&.svg);
+      position: absolute;
+      left: 422px;
+      bottom: 5px;
+    }
+  }
+  &__strong1 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: $dark;
+    padding: 0 730px 14px 0;
+  }
+  &__text {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6c6c;
+    padding: 0 600px 70px 0;
+  }
+  &__link {
+    padding: 0 940px 232px 0;
+  }
+  &__a {
+    padding: 19px 31px 21px 40px;
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #ac1313;
+    border-radius: 0px;
+  }
+}

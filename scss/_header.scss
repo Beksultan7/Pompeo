@@ -1,0 +1,86 @@
+@import "vars";
+
+.header {
+  &__inner {
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logolink {
+    text-decoration: none;
+    margin: 13px 0 36px 0;
+    max-height: 40px;
+  }
+  &__logo {
+    margin: 0;
+    font-family: "Pacifico";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: $dark;
+  }
+  &__nav {
+    padding: 13px 0;
+  }
+  &__menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    padding: 21px 0 21px 21px;
+    margin: 0;
+  }
+  &__link1 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $accent;
+    text-decoration: none;
+  }
+  &__item + &__item {
+    padding-left: 40px;
+  }
+  &__item + &__item + &__item + &__item {
+    padding-right: 25px;
+  }
+  &__item {
+    max-height: 22px;
+  }
+  &__link:hover {
+    background-color: #6c6c6c;
+    color: aquamarine;
+  }
+  &__link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    text-decoration: none;
+  }
+  &__link2 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: $dark;
+    text-decoration: none;
+    padding: 9px 15px 9px 41px;
+    border-left: 1px solid #ebebeb;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: url(../images/Vector.svg);
+      right: 49px;
+      max-height: 20px;
+    }
+  }
+}
